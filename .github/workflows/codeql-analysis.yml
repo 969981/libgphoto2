@@ -43,7 +43,7 @@ jobs:
 
     # install all necessary things
     - run: |
-        sudo apt-get update && sudo apt-get install -y python3-pip ninja-build gettext libusb-1.0-0-dev libcurl4-openssl-dev libltdl-dev
+        sudo apt-get update && sudo apt-get install -y python3-pip ninja-build gettext libusb-1.0-0-dev libcurl4-openssl-dev libltdl-dev autopoint libgd-dev
         pip3 install --user meson==1.4.2
 
     # Initializes the CodeQL tools for scanning.
